@@ -41,7 +41,7 @@ a {
 }
 
 .nav .links {
-    margin: 0 auto;
+    margin: 60px auto 0 auto;
 }
 
 .nav .links a{
@@ -52,5 +52,12 @@ a {
 
     text-align: center;
     display: inline-block;
+}
+
+.nav img{
+    height: 65px;
+    width: 50px;
+    margin: 50px auto 0 auto;
+    display: block;
 }
 
