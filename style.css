@@ -96,3 +96,11 @@ a {
 .page-container .page {
     height: 100%;
 }
+
+#second-page .main-text{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+}
