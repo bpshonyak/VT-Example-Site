@@ -14,6 +14,10 @@
     background: #fff;
 }
 
+.swiper-pagination .swiper-pagination-bullet {
+    border-radius: 0;
+}
+
 .swiper-pagination .swiper-pagination-bullet-active {
     background: #03A9F4;
 }
