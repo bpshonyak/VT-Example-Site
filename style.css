@@ -70,7 +70,9 @@ a {
 
 .main-content {
     height: 100%;
+    min-width: 774px;
     margin-left: 250px;
+
     overflow-y: hidden;
 }
 
@@ -97,10 +99,47 @@ a {
     height: 100%;
 }
 
+#top-page {
+    background: url(assets/bg.jpg);
+    background-size: cover;
+}
+
+#top-page .main-text {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#top-page .qoute-text {
+    width: 500px;
+    margin-left: 100px;
+}
+
+#top-page .qoute-text h2 {
+    text-align: justify;
+}
+
+#top-page .qoute-text p {
+    text-align: right;
+}
+
+#top-page .info-text {
+    width: 300px;
+
+    margin-right: 100px;
+    margin-top: 150px;
+
+    float: right;
+}
+
+#top-page .info-text h3 {
+    text-align: right;
+}
+
 #second-page .main-text {
-    text-align: center;
     width: 500px;
     margin: 0 auto;
+
+    text-align: center;
     font-size: 18px;
     line-height: 30px;
 }
@@ -108,5 +147,6 @@ a {
 #third-page .main-text { 
     width: 700px;
     margin: 20px auto;
+
     font-size: 20px;
 }
