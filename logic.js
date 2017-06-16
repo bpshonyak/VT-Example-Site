@@ -7,7 +7,7 @@ links.addEventListener('click', (event) => {
     event.preventDefault();
     const target = event.target;
     
-    if (target.nodeName != "A") return;
+    if (target.nodeName !== 'A' || target.className === 'disabled') return;
 
     const pageNumber = parseInt(target.dataset.pageNum);
     let translateValue = 0;

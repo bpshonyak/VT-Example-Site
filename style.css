@@ -71,6 +71,11 @@ a {
     border-bottom: 1px solid #b5b5b5;
 }
 
+.nav .links .disabled {
+    text-decoration: line-through;
+    color: #b70606;
+}
+
 .nav img{
     width: 50px;
     height: 65px;
