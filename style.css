@@ -8,6 +8,8 @@ html, body {
 
 body {
     margin: 0;
+    min-width: 1024px;
+    min-height: 768px;
 }
 
 p, a, h1, h2, h3, h4, h5, h6 {
@@ -107,6 +109,7 @@ a {
 #top-page .main-text {
     width: 800px;
     margin: 0 auto;
+    padding-top: 200px;
 }
 
 #top-page .qoute-text {
