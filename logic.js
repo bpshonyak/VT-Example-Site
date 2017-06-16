@@ -1,10 +1,23 @@
 const links = document.querySelector('.links');
 const pageContainer = document.querySelector('.page-container');
 
+let activeLink;
+
 links.addEventListener('click', (event) => {
     event.preventDefault();
-    const pageNumber = parseInt(event.target.dataset.pageNum);
+    const target = event.target;
+    
+    if (target.nodeName != "A") return;
+
+    const pageNumber = parseInt(target.dataset.pageNum);
     let translateValue = 0;
+
+    if (activeLink) {
+        activeLink.className = '';
+    }
+
+    target.className = 'active';
+    activeLink = target;
 
     switch (pageNumber) {
         case 1:
