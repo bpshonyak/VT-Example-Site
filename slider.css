@@ -1,0 +1,23 @@
+.swiper-container {
+    width: 700px;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    width: 650px;
+    margin-bottom: 50px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: #03A9F4;
+}
+
+.swiper-container .swiper-button-next, .swiper-container .swiper-button-prev {
+    margin-top: -42px;
+}

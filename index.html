@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DNA</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 </head>
 <body>
     <div class="nav">
@@ -16,7 +18,7 @@
         <div class="links">            
             <a href="" data-page-num="0">トップ</a>
             <a href="" data-page-num="1">Link 2</a>
-            <a href="" data-page-num="2">Link 3</a>
+            <a href="" data-page-num="2">Slider</a>
             <a href="" data-page-num="3">Link 4</a>
         </div>
         <img src="assets/dna.png" alt="DNA">
@@ -24,29 +26,64 @@
     <div class="main-content">
         <div class="page-container">
             <div id="top-page" class="page">
-                <h1>Top-Page</h1>
+                <h2>Top-Page</h2>
                 <div class="divider"></div>
                 <div class="main-text"></div>
             </div>
             <div id="second-page" class="page">
-                <h1>Lots of Text</h1>
+                <h2>Lots of Text</h2>
                 <div class="divider"></div>
                 <div class="main-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante nulla, posuere non arcu eu, sollicitudin euismod risus. In rhoncus facilisis sapien ut pulvinar. Aliquam dapibus mi eros, congue molestie odio ornare quis. Duis pharetra eros quis erat feugiat, in pretium purus sodales. Curabitur facilisis blandit tincidunt. Nullam massa odio, condimentum id faucibus in, eleifend feugiat mauris. Fusce ullamcorper pharetra nisl, vel viverra enim hendrerit eleifend. Integer scelerisque augue nisi, a laoreet ipsum ornare non. Duis eu pharetra lorem. Suspendisse potenti. Fusce malesuada turpis eu dolor scelerisque pellentesque. Nam vel lobortis leo. Proin ac eleifend justo. Nunc porttitor, ante sit amet ultricies dignissim, velit neque ultricies libero, in ultrices leo ex a ante. Mauris in nulla placerat, vestibulum erat sed.
                 </div>
             </div>
             <div id="third-page" class="page">
-                <h1>Third-Page</h1>
+                <h2>Slider</h2>
                 <div class="divider"></div>
-                <div class="main-text"></div>
+                <div>
+                    <div class="main-text">
+                        X Kit Serise
+                    </div>
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/x1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/x2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/x3.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/x1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/x2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/x3.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
             </div>
             <div id="fourth-page" class="page">
-                <h1>Fouth-Page</h1>
+                <h2>Fouth-Page</h2>
                 <div class="divider"></div>
-                <div class="main-text"></div>
+                <div class="main-text">
+
+                </div>
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="logic.js"></script>
 </body>
 </html>
