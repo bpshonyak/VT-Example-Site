@@ -1,7 +1,7 @@
 const links = document.querySelector('.links');
 const pageContainer = document.querySelector('.page-container');
 
-let activeLink;
+let activeLink = document.getElementById('home-page');
 
 links.addEventListener('click', (event) => {
     event.preventDefault();
