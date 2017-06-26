@@ -7,6 +7,7 @@ links.addEventListener('click', (event) => {
     event.preventDefault();
     const target = event.target;
     
+    // The element needs to be an enabled anchor tag
     if (target.nodeName !== 'A' || target.className === 'disabled') return;
 
     const pageNumber = parseInt(target.dataset.pageNum);
@@ -35,6 +36,7 @@ links.addEventListener('click', (event) => {
     pageContainer.setAttribute('style', `transform: translateY(${translateValue}%)`);
 });
 
+// Initailize the slider used on page three
 const swiper = new Swiper('.swiper-container', {
     pagination: '.swiper-pagination',
     nextButton: '.swiper-button-next',
