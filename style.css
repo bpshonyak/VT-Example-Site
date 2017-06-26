@@ -148,7 +148,7 @@ footer p {
 }
 
 #top-page .qoute-text {
-    width: 500px;
+    width: 315px;
     margin-left: 100px;
 }
 
@@ -163,14 +163,14 @@ footer p {
 #top-page .info-text {
     width: 300px;
 
-    margin-right: 100px;
+    margin-right: 120px;
     margin-top: 150px;
 
     float: right;
 }
 
 #top-page .info-text h3 {
-    text-align: right;
+    text-align: left;
 }
 
 #second-page .main-text {
